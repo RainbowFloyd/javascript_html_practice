@@ -1,0 +1,20 @@
+{
+  "name": "javascript_html_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "author": "Adam Floyd",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.15.0",
+    "nodemon": "^1.18.3"
+  }
+}
