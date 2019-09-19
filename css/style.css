@@ -1,3 +1,8 @@
+*html,body {
+	padding: 0;
+	margin: 0;
+}
+
 header {
 	background-color: darkturquoise
 }
@@ -5,4 +10,17 @@ header {
 .logo {
 	max-width: 100px;
 	max-height: 100px;
+}
+
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+header nav {
+	float: right;
 }
