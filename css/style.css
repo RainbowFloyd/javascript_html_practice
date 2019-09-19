@@ -26,3 +26,15 @@ ul li {
 header nav {
 	float: right;
 }
+
+header nav ul li a {
+	padding-right: 30px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.5s;
+}
+
+header nav ul li a:hover {
+	text-decoration: none;
+	color: red;
+}
